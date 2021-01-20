@@ -2,7 +2,9 @@ package main
 import "fmt"
 
 func Ola(nome string) string {
-	/*  Função que imprime ola */
+	if nome == " "{
+		nome = "Mundo"
+	}	
 	return "Olá, " +nome
 }
 func main(){
